@@ -1,0 +1,86 @@
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      overflow-x: hidden;
+    }
+    input{
+        margin:10px 0px 10px 5px !important;
+        width: 56%;
+      }
+      input::placeholder{
+        margin-left: 40px !important;
+      }
+      select{
+       margin:10px 0px 10px 5px !important;
+        width: 56%;
+      }
+      label>span{
+        color: red;
+      }
+      .heading{
+        background: blue;
+        color: white;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+            .heading h6{
+        margin-left: 20px;
+        font-weight: 700;
+      }
+      .information1{
+        text-align: end;
+      }
+      .checkbox{
+        text-align: center;
+        margin-top: 20px;
+        color:red;
+      }
+
+      .Address_checkbox{
+        margin: 0;
+        width: auto;
+        border-radius: 50%;
+      }
+      .Language_radio{
+width: auto;
+margin: 0;
+      }
+      .Language_label{
+margin-right: 30px;
+      }
+      .vision{
+        width: 50px;
+      }
+      .Address{
+        margin-top: 30px;
+      }
+      .Health{
+        margin-top: 30px;
+      }
+       .buttons{
+        text-align: center;
+        margin-top: 30px !important;
+      }
+
+      .achive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .achive_input{
+        width: 56%;
+        margin-right: 5px;
+      }
+      #reg{
+        width: 56%;
+      }
+      .exp{
+        width: 78%;
+      }
+      .border_box>p{
+        border: 1px solid;
+        width: auto;
+        padding: 5px;
+      }
